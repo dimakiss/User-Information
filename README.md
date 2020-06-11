@@ -5,7 +5,7 @@ Povide you with the following:
 * city
 * region
 * country
-* loc(aproximation) 
+* loc (aproximation) 
 * timezone
 
 Feel free to use it for software customization
