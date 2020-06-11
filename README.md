@@ -9,3 +9,8 @@ Povide you with the following:
 * timezone
 
 Feel free to use it for software customization
+
+## Install Requirements
+```
+pip install -r requirements.txt
+```
