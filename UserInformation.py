@@ -19,15 +19,11 @@ class UserInformation():
         self.timezone = self.json_data['timezone']
 
     def get_json(self):
-
-        # scrap all the users data from the site'http://ipinfo.io/json'
+        # scrape all the users data from the site'http://ipinfo.io/json'
         # return users data as dict
         url = 'http://ipinfo.io/json'
         response = requests.get(url)
-        soup = BeautifulSoup(response.content, 'lxml')
-        data_raw = str(soup.text).replace('\n', '')
-        data = ast.literal_eval(data_raw)
-        return data
+        return response.json()
 
     def save_to_text_file(self,file_name,file_loc=None):
 
