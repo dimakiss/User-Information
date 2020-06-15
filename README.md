@@ -9,6 +9,7 @@ Povide you with the following:
 * timezone
 
 Feel free to use it for software customization
+![](user_class.png)
 
 ## Install Requirements
 ```
